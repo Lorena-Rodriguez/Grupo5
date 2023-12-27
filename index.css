@@ -126,7 +126,10 @@ footer {
     font-size: 14px;
     padding-top: 20px;
 }
-
+.bloque1 img{
+    width: 193px;
+    height: auto;
+}
 #finalname {
     margin-block-start: 20px;
 }
