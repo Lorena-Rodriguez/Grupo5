@@ -7,7 +7,7 @@ body{
     background-color: #032B2F ;
     height: 138px;
     display: grid;
-    grid-template-columns: 400px 1000px  ;
+    grid-template-columns: 400px 1040px  ;
     grid-template-rows: 69px 69px;
     align-items: center; 
 }
@@ -30,16 +30,21 @@ body{
     justify-content: center;
     align-items: center;
     padding-left: 153px;
+    align-items: center;
 }
 .barrabuscador {
     width: 600px;
-    height: 20px;
+    height: 21px;
+}
+::placeholder {
+    color: #D0D3C5;
+    font-family: 'Catamaran';  
 }
 .search {
     width: 20px;
     height: auto;
-    margin-left: 10px;
-    
+    margin-left: 15px;
+    margin-top: 25px;
 }
 
 
@@ -60,8 +65,40 @@ button {
    
     justify-content: left;
 }
-.derecha {
-    
+.derecha { 
     justify-content: right;
-    margin-left: 122px;
+    margin-left: 80px;
+    
 }
+.derecha img{
+    padding: 8px;
+}
+.sponsors {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 60px;
+}
+#hf {
+    height: 73px;
+    width: auto;
+}
+#biosphere {
+    height: 98px;
+    width: auto;
+}
+
+#barcelona {
+    height: 78px;
+    width: auto;
+}
+#certificadoverde {
+    height: 109px;
+    width: auto;
+}
+#economiahumana {
+    height: 81px;
+    width: auto;
+}
+
