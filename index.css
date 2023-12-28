@@ -3,6 +3,36 @@ body {
     width: 1440px;      
 }
 
+h1 {
+    font-size: 82px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 47px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
 .header {
     background-color: #032B2F;
     height: 138px;
@@ -205,13 +235,39 @@ footer {
     
 }
 
-h2 {
-    font-size: 47pt;
-}
+
 
 .slider1 {
     background-color: #EFF2EE;
     height: 460px;
 }
 
+<<<<<<< HEAD
 .ilustracion_soporte {}
+=======
+.ilustracion_soporte {
+    height: 309px;
+    width: auto;
+}
+
+/*SECCIÓN CATÁLOGO*/
+
+.fila{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.contenedor-foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-foto > div {
+    display: flex;
+    justify-content: center;
+}
+ 
+>>>>>>> 5745e1f681aa4eab222d357e9f7b559c3bb7c833
