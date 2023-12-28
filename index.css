@@ -3,6 +3,36 @@ body {
     width: 1440px;
 }
 
+h1 {
+    font-size: 82px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 47px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
 .header {
     background-color: #032B2F;
     height: 138px;
@@ -195,6 +225,7 @@ h2 {
 }
 
 .ilustracion_soporte {
+<<<<<<< HEAD
     
 }
 /*SECCIÓN CATÁLOGO*/
@@ -216,3 +247,8 @@ h2 {
     display: flex;
     justify-content: center;
 }
+=======
+    height: 309px;
+    width: auto;
+}
+>>>>>>> dbfd5a412a2548958e0f17eb47259d2d7e2f0dba
