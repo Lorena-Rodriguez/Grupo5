@@ -173,6 +173,11 @@ footer {
     justify-content: space-between;
 }
 
+.rrssicons img{
+width: 32px;
+height: auto;
+}
+
 #barranewsletter {
     width: 291px;
     height: 38px;
