@@ -11,6 +11,8 @@ h1 {
 h2 {
     font-size: 47px;
     font-weight: 700;
+    line-height: 52px;
+    color: #032B2F;
 }
 
 h3 {
@@ -26,6 +28,7 @@ h4 {
 h5 {
     font-size: 17px;
     font-weight: 400;
+    line-height: 22px;
 }
 
 p {
@@ -235,16 +238,56 @@ footer {
     
 }
 
-
-
 .slider1 {
     background-color: #EFF2EE;
     height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 102px;
+}
+
+.slider2 {
+    background-color: #D73A31;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 102px;
+}
+
+.slider3 {
+    background-color:#032B2F;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 102px;
+}
+
+.text_slider {
+    width: 423px;
+}
+
+.text_slider_white {
+    width: 423px;
+    color: #FFFFFF;
+}
+
+.txtwhite {
+    color:#FFFFFF
 }
 
 .ilustracion_soporte {
     height: 309px;
-    width: auto;
+}
+
+.ilustracion_envios {
+    height: 409px;
+}
+
+.ilustracion_colaboracion {
+    height: 300px;
 }
 
 /*SECCIÓN CATÁLOGO*/
