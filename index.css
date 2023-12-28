@@ -238,11 +238,12 @@ footer {
     
 }
 
+/*SECCIÓN SLIDER*/
+
 .slider1 {
     background-color: #EFF2EE;
     height: 460px;
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 102px;
 }
@@ -260,9 +261,8 @@ footer {
     background-color:#032B2F;
     height: 460px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 102px;
+    gap: 101px;
 }
 
 .text_slider {
@@ -280,6 +280,7 @@ footer {
 
 .ilustracion_soporte {
     height: 309px;
+    margin-left: 115px;
 }
 
 .ilustracion_envios {
@@ -288,6 +289,58 @@ footer {
 
 .ilustracion_colaboracion {
     height: 300px;
+    margin-left: 115px;
+}
+
+/*SECCIÓN CONTACTO*/
+
+.mockup {
+    height: 706px;
+}
+
+.contact {
+    background-color: #EFF2EE;
+    display: flex;
+}
+
+.newsletter {
+    background-color: #56B1B7;
+    height: 353px;
+    width: 718px;
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter h2 {
+    margin-left: 113px;
+}
+
+.newsletter p {
+    margin-left: 113px;
+    margin-right: 182px;
+}
+
+.form {
+    margin-left: 113px;
+    margin-right: 182px;
+    display: flex;
+    flex-direction: row;
+}
+
+.email {
+    background-color: #FFFFFF;
+    width: 292px;
+    height: 38px;
+}
+
+.correoelectronico {
+    color:#D0D3C5;
+}
+
+.enviar {
+    width: 115px;
+    height: 38px;
+    background: #032B2F;
 }
 
 /*SECCIÓN CATÁLOGO*/
