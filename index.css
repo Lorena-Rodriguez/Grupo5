@@ -215,9 +215,7 @@ height: auto;
     padding-left: 5px;
 }
 
-h2 {
-    font-size: 47pt;
-}
+
 
 .slider1 {
     background-color: #EFF2EE;
@@ -225,9 +223,10 @@ h2 {
 }
 
 .ilustracion_soporte {
-<<<<<<< HEAD
-    
+    height: 309px;
+    width: auto;
 }
+
 /*SECCIÓN CATÁLOGO*/
 
 .fila{
@@ -247,8 +246,4 @@ h2 {
     display: flex;
     justify-content: center;
 }
-=======
-    height: 309px;
-    width: auto;
-}
->>>>>>> dbfd5a412a2548958e0f17eb47259d2d7e2f0dba
+ 
