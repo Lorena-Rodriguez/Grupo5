@@ -14,7 +14,6 @@ h2 {
     font-size: 47px;
     font-weight: 700;
     line-height: 52px;
-    color: #032B2F;
 }
 
 h3 {
@@ -298,8 +297,12 @@ footer {
 }
 
 .contact {
-    background-color: #EFF2EE;
+    background-color: #ffffff;
     display: flex;
+}
+
+.tofill {
+    display: grid;
 }
 
 .newsletter {
@@ -312,11 +315,15 @@ footer {
 
 .newsletter h2 {
     margin-left: 113px;
+    color: #032B2F;
+    margin-block-end: 5px;
 }
 
 .newsletter p {
     margin-left: 113px;
     margin-right: 182px;
+    margin-block-end: 30px;
+    color: #032B2F;
 }
 
 .form {
@@ -324,22 +331,37 @@ footer {
     margin-right: 182px;
     display: flex;
     flex-direction: row;
+    gap: 15px;
 }
 
 .email {
     background-color: #FFFFFF;
     width: 292px;
-    height: 38px;
-}
-
-.correoelectronico {
-    color:#D0D3C5;
+    color: #979c9d;
+    padding-left: 15px;
+    border: 0;
 }
 
 .enviar {
     width: 115px;
     height: 38px;
     background: #032B2F;
+    color: #FFFFFF;
+    border: 0;
+}
+
+.contactform {
+   color: #032B2F;
+   margin-left: 113px;
+   margin-right: 182px;
+}
+
+.accesoformulario {
+    width: 422px;
+    height: 38px;
+    background: #D73A31;
+    color: #FFFFFF;
+    border: 0;
 }
 
 /*SECCIÓN CATÁLOGO*/
