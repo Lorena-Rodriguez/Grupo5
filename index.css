@@ -72,13 +72,9 @@
         grid-row: 1 / 4;
         padding-left: 150px;
         padding-top: 8px;
-
     }
 
     #hiddenicondesktop {
-        grid-row: 1 / 4;
-        padding-left: 39px;
-        padding-top: 8px;
         display: none;
     }
 
