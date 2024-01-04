@@ -1,462 +1,569 @@
 @media screen and (min-width: 391px) {
-    
-body {
-    font-family: 'Catamaran';
-    width: 1440px; 
-}
-html, body {
-    height: 100%;
-}
-html {
-    display: table;
-    margin: auto;
-}
-body {
-    display: table-cell;
-    vertical-align: middle;
-}
 
-h1 {
-    font-size: 82px;
-    font-weight: 600;
-}
-
-h2 {
-    font-size: 47px;
-    font-weight: 700;
-    line-height: 52px;
-}
-
-h3 {
-    font-size: 36px;
-    font-weight: 400;
-}
-
-h4 {
-    font-size: 20px;
-    font-weight: 400;
-}
-
-h5 {
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 22px;
-}
-
-p {
-    font-size: 14px;
-    font-weight: 400;
-}
-
-header {
-    position: sticky;
-    top: 0;
-}
-.header {
-    background-color: #032B2F;
-    height: 138px;
-    display: grid;
-    grid-template-columns: 400px 1040px;
-    grid-template-rows: 69px 69px;
-    align-items: center;
-}
-
-.header div:first-child {
-    grid-row: 1 / 4;
-    padding-left: 150px;
-    padding-top: 8px;
-
-}
-
-.headerlogo {
-    width: 187.3px;
-    height: 88.34px;
-}
-
-.buscador {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-top: 20px;
-    padding-left: 154px;
-    align-items: center;
-}
-
-.barrabuscador {
-    width: 600px;
-    height: 21px;
-}
-
-::placeholder {
-    color: #032B2F;
-    height: 21px;
-    width: 742px;
-    padding-left: 5px;
-}
-
-.search {
-    width: 20px;
-    height: auto;
-    margin-left: 15px;
-    margin-top: 5;
-}
-
-.buttonheader {
-    background-color: #032B2F;
-    border: none;
-    color: #EFF2EE;
-    text-align: center;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.navbar {
-    display: flex;
-    flex-direction: row;
-}
-
-.izquierda {
-    justify-content: left;
-}
-
-.derecha {
-    justify-content: right;
-    margin-left: 80px;
-}
-
-.derecha img {
-    padding: 3px;
-}
-
-.sponsors {
-    background-color: #FFFFFF;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 60px;
-}
-
-#hf {
-    height: 73px;
-    width: auto;
-}
-
-#biosphere {
-    height: 98px;
-    width: auto;
-}
-
-#barcelona {
-    height: 78px;
-    width: auto;
-}
-
-#certificadoverde {
-    height: 109px;
-    width: auto;
-}
-
-#economiahumana {
-    height: 81px;
-    width: auto;
-}
-
-footer {
-    background-color: #032B2F;
-    color: #D0D3C5;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr) 183px;
-    padding-left: 150px;
-    padding-top: 50px;
-    padding-bottom: 30px;
-}
-
-.bloque1 {
-    font-size: 14px;
-    padding-top: 20px;
-    
-}
-
-.bloque1 img {
-    width: 193px;
-    height: auto;
-}
-
-#finalname {
-    margin-block-start: 20px;
-}
-
-.bloque2 {
-    text-align: center; 
-    padding-top: 28px;
-    padding-left: 50px;
-}
-
-.bloque2 h5{
-    margin-block-start: 0;
-    margin-block-end: 0;
-}
-
-.bloque2 p {
-    margin-block-start: 0;
-    margin-block-end: 0;
-}
-
-.bloque3 {
-    text-align: center;
-    padding-top: 28px;
-    padding-left: 50px;
-}
-
-.bloque3 h5{
-    margin-block-start: 0;
-    margin-block-end: 0;
-}
-
-.bloque3 p {
-    margin-block-start: 0;
-    margin-block-end: 0;
-}
-
-.bloque4 {
-    display: flex;
-    flex-direction: column;
-    padding-left: 90px;
-}
-.footernewsletter  {
-    display: flex;
-    flex-direction: row;
-}
-#newslettertextfooter{
-   padding-top: 28px;
-    margin-block-start: 0;
-    margin-block-end: 5px;
-}
-#rrsstextfooter{
-    margin-block-start: 10px;
-    margin-block-end: 10px;
-}
-.bloque4 h3 {
-    margin-block-end: 0;
-}
-
-.bloque4 a {
-    text-decoration: none;
-}
-.buttonfooter {
-
-    width: 115px;
-    height: 38px;
-    background: #0B708A;
-    color: #FFFFFF;
-    border: 0;
-    margin-left: 10px;
-    cursor: pointer;
-}
-
-.rrssicons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-right: 200px;
-}
-
-.rrssicons img {
-    width: 32px;
-    height: auto;
-}
-
-#newsletterbar {
-    width: 291px;
-    height: 38px;
-    font-size: 17px;
-    padding-left: 5px;
-    
-}
-
-/*SECCIÓN SLIDER*/
-
-.slider1 {
-    background-color: #EFF2EE;
-    height: 460px;
-    display: flex;
-    align-items: center;
-    gap: 102px;
-}
-
-.slider2 {
-    background-color: #D73A31;
-    height: 460px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 102px;
-}
-
-.slider3 {
-    background-color:#032B2F;
-    height: 460px;
-    display: flex;
-    align-items: center;
-    gap: 101px;
-}
-
-.text_slider {
-    width: 423px;
-    color: #032B2F;
-}
-
-.text_slider_white {
-    width: 423px;
-    color: #FFFFFF;
-}
-
-.txtwhite {
-    color:#FFFFFF
-}
-
-.ilustracion_soporte {
-    height: 309px;
-    margin-left: 115px;
-}
-
-.ilustracion_envios {
-    height: 409px;
-}
-
-.ilustracion_colaboracion {
-    height: 300px;
-    margin-left: 115px;
-}
-
-
-
-/*SECCIÓN CONTACTO*/
-
-.mockup {
-    height: 706px;
-}
-
-.contact {
-    background-color: #ffffff;
-    display: flex;
-}
-
-.tofill {
-    display: grid;
-}
-
-.newsletter {
-    background-color: #56B1B7;
-    height: 353px;
-    width: 718px;
-    display: flex;
-    flex-direction: column;
-}
-
-.newsletter h2 {
-    margin-left: 113px;
-    color: #032B2F;
-    margin-block-end: 5px;
-}
-
-.newsletter p {
-    margin-left: 113px;
-    margin-right: 182px;
-    margin-block-end: 30px;
-    color: #032B2F;
-}
-
-.form {
-    margin-left: 113px;
-    margin-right: 182px;
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-}
-
-.email {
-    background-color: #FFFFFF;
-    width: 292px;
-    color: #979c9d;
-    padding-left: 15px;
-    border: 0;
-}
-
-.enviar {
-    width: 115px;
-    height: 38px;
-    background: #032B2F;
-    color: #FFFFFF;
-    border: 0;
-}
-
-.contactform {
-   color: #032B2F;
-   margin-left: 113px;
-   margin-right: 182px;
-}
-
-.accesoformulario {
-    width: 422px;
-    height: 38px;
-    background: #D73A31;
-    color: #FFFFFF;
-    border: 0;
-}
-
-/*SECCIÓN CATÁLOGO*/
-
-.fila{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 5px;
-}
-
-.contenedor-foto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contenedor-foto > div {
-    display: flex;
-    justify-content: center;
-}
-.contenedor-foto div span {
-    margin-top: 10px;
-    margin-right: 5px;
-    margin-bottom: 10px;
-    margin-left: 5px;
-}
-.catalogue3{
-   text-align: center;
-   margin-bottom: 15px;
-
-}
-.cataloguesub{
-    text-align: center;
-    margin: 10px 20px 8px 20px;
-}
- 
-/*SECCIÓN RESEÑAS*/
-.reseñas{
-    background-color: #EFF2EE;
-    width: 1440px;
-    height: 571px;
-    top: 3892px;
-}
-.titlereseñas{
-    text-align: center;
-    margin top: 64px;
-
-}
-}
-@media screen and (max-width: 390px) 
-    {
-        
+    body {
+        font-family: 'Catamaran';
+        width: 1440px;
+    }
+
+    html,
+    body {
+        height: 100%;
+    }
+
+    html {
+        display: table;
+        margin: auto;
+    }
+
+    body {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    h1 {
+        font-size: 82px;
+        font-weight: 600;
+    }
+
+    h2 {
+        font-size: 47px;
+        font-weight: 700;
+        line-height: 52px;
+    }
+
+    h3 {
+        font-size: 36px;
+        font-weight: 400;
+    }
+
+    h4 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    h5 {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    header {
+        position: sticky;
+        top: 0;
+    }
+
+    .header {
+        background-color: #032B2F;
+        height: 138px;
+        display: grid;
+        grid-template-columns: 400px 1040px;
+        grid-template-rows: 69px 69px;
+        align-items: center;
+    }
+
+
+
+    .header div:first-child {
+        grid-row: 1 / 4;
+        padding-left: 150px;
+        padding-top: 8px;
 
     }
+
+    #hiddenicondesktop {
+        grid-row: 1 / 4;
+        padding-left: 39px;
+        padding-top: 8px;
+        display: none;
+    }
+
+    .headerlogo {
+        width: 187.3px;
+        height: 88.34px;
+    }
+
+    .buscador {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 20px;
+        padding-left: 154px;
+        align-items: center;
+    }
+
+    .barrabuscador {
+        width: 600px;
+        height: 21px;
+    }
+
+    ::placeholder {
+        color: #032B2F;
+        height: 21px;
+        width: 742px;
+        padding-left: 5px;
+    }
+
+    .search {
+        width: 20px;
+        height: auto;
+        margin-left: 15px;
+        margin-top: 5;
+    }
+
+    .buttonheader {
+        background-color: #032B2F;
+        border: none;
+        color: #EFF2EE;
+        text-align: center;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .izquierda {
+        justify-content: left;
+    }
+
+    .derecha {
+        justify-content: right;
+        margin-left: 80px;
+    }
+
+    .derecha img {
+        padding: 3px;
+    }
+
+    .sponsors {
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 60px;
+    }
+
+    #hf {
+        height: 73px;
+        width: auto;
+    }
+
+    #biosphere {
+        height: 98px;
+        width: auto;
+    }
+
+    #barcelona {
+        height: 78px;
+        width: auto;
+    }
+
+    #certificadoverde {
+        height: 109px;
+        width: auto;
+    }
+
+    #economiahumana {
+        height: 81px;
+        width: auto;
+    }
+
+    footer {
+        background-color: #032B2F;
+        color: #D0D3C5;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr) 183px;
+        padding-left: 150px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .bloque1 {
+        font-size: 14px;
+        padding-top: 20px;
+
+    }
+
+    .bloque1 img {
+        width: 193px;
+        height: auto;
+    }
+
+    #finalname {
+        margin-block-start: 20px;
+    }
+
+    .bloque2 {
+        text-align: center;
+        padding-top: 28px;
+        padding-left: 50px;
+    }
+
+    .bloque2 h5 {
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+
+    .bloque2 p {
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+
+    .bloque3 {
+        text-align: center;
+        padding-top: 28px;
+        padding-left: 50px;
+    }
+
+    .bloque3 h5 {
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+
+    .bloque3 p {
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+
+    .bloque4 {
+        display: flex;
+        flex-direction: column;
+        padding-left: 90px;
+    }
+
+    .footernewsletter {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #newslettertextfooter {
+        padding-top: 28px;
+        margin-block-start: 0;
+        margin-block-end: 5px;
+    }
+
+    #rrsstextfooter {
+        margin-block-start: 10px;
+        margin-block-end: 10px;
+    }
+
+    .bloque4 h3 {
+        margin-block-end: 0;
+    }
+
+    .bloque4 a {
+        text-decoration: none;
+    }
+
+    .buttonfooter {
+
+        width: 115px;
+        height: 38px;
+        background: #0B708A;
+        color: #FFFFFF;
+        border: 0;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    .rrssicons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 200px;
+    }
+
+    .rrssicons img {
+        width: 32px;
+        height: auto;
+    }
+
+    #newsletterbar {
+        width: 291px;
+        height: 38px;
+        font-size: 17px;
+        padding-left: 5px;
+
+    }
+
+    /*SECCIÓN SLIDER*/
+
+    .slider1 {
+        background-color: #EFF2EE;
+        height: 460px;
+        display: flex;
+        align-items: center;
+        gap: 102px;
+    }
+
+    .slider2 {
+        background-color: #D73A31;
+        height: 460px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 102px;
+    }
+
+    .slider3 {
+        background-color: #032B2F;
+        height: 460px;
+        display: flex;
+        align-items: center;
+        gap: 101px;
+    }
+
+    .text_slider {
+        width: 423px;
+        color: #032B2F;
+    }
+
+    .text_slider_white {
+        width: 423px;
+        color: #FFFFFF;
+    }
+
+    .txtwhite {
+        color: #FFFFFF
+    }
+
+    .ilustracion_soporte {
+        height: 309px;
+        margin-left: 115px;
+    }
+
+    .ilustracion_envios {
+        height: 409px;
+    }
+
+    .ilustracion_colaboracion {
+        height: 300px;
+        margin-left: 115px;
+    }
+
+
+
+    /*SECCIÓN CONTACTO*/
+
+    .mockup {
+        height: 706px;
+    }
+
+    .contact {
+        background-color: #ffffff;
+        display: flex;
+    }
+
+    .tofill {
+        display: grid;
+    }
+
+    .newsletter {
+        background-color: #56B1B7;
+        height: 353px;
+        width: 718px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .newsletter h2 {
+        margin-left: 113px;
+        color: #032B2F;
+        margin-block-end: 5px;
+    }
+
+    .newsletter p {
+        margin-left: 113px;
+        margin-right: 182px;
+        margin-block-end: 30px;
+        color: #032B2F;
+    }
+
+    .form {
+        margin-left: 113px;
+        margin-right: 182px;
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .email {
+        background-color: #FFFFFF;
+        width: 292px;
+        color: #979c9d;
+        padding-left: 15px;
+        border: 0;
+    }
+
+    .enviar {
+        width: 115px;
+        height: 38px;
+        background: #032B2F;
+        color: #FFFFFF;
+        border: 0;
+    }
+
+    .contactform {
+        color: #032B2F;
+        margin-left: 113px;
+        margin-right: 182px;
+    }
+
+    .accesoformulario {
+        width: 422px;
+        height: 38px;
+        background: #D73A31;
+        color: #FFFFFF;
+        border: 0;
+    }
+
+    /*SECCIÓN CATÁLOGO*/
+
+    .fila {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 5px;
+    }
+
+    .contenedor-foto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenedor-foto>div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contenedor-foto div span {
+        margin-top: 10px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+
+    .catalogue3 {
+        text-align: center;
+        margin-bottom: 15px;
+
+    }
+
+    .cataloguesub {
+        text-align: center;
+        margin: 10px 20px 8px 20px;
+    }
+
+    /*SECCIÓN RESEÑAS*/
+    .reseñas {
+        background-color: #EFF2EE;
+        width: 1440px;
+        height: 571px;
+        top: 3892px;
+    }
+
+    .titlereseñas {
+        text-align: center;
+        margin top: 64px;
+
+    }
+}
+
+/*COMIENZA EL RESPONSIVE*/
+@media screen and (max-width: 391px) {
+
+    .buscador {
+        display: none;
+    }
+
+    .izquierda {
+        display: none;
+    }
+
+    .header {
+        background-color: #032B2F;
+        width: 390px;
+        height: 101px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    .headerlogo {
+        padding-top: 17px;
+        padding-left: 21px;
+        width: 156px;
+        height: 58.26px;
+        padding-bottom: 22px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    .derecha {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 10px;
+    }
+
+
+    #hiddenicondesktop {
+        padding-left: 30px;
+        width: 30px;
+        height: 15px;
+    }
+
+    .buttonheader {
+        background-color: #032B2F;
+        border: none;
+        cursor: pointer;
+    }
+
+    .sponsors {
+        background-color: #EFF2EE;
+        width: 390px;
+        height: 132px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #hf {
+        height: 36px;
+    }
+
+    #biosphere {
+        height: 49px;
+    }
+
+    #barcelona {
+        height: 39px;
+    }
+
+    #certificadoverde {
+        height: 54px;
+    }
+
+    #economiahumana {
+        height: 40px;
+    }
+
+}
