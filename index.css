@@ -1,3 +1,5 @@
+/*@media screen and (min-width: 600px);{*/
+
 body {
     font-family: 'Catamaran';
     width: 1440px; 
@@ -244,7 +246,7 @@ footer {
     text-decoration: none;
 }
 .buttonfooter {
-    
+
     width: 115px;
     height: 38px;
     background: #0B708A;
@@ -451,3 +453,10 @@ footer {
     margin top: 64px;
 
 }
+/*}
+
+@media screen and (max-width: 700px) 
+    {
+        
+
+    }*/
