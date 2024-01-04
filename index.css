@@ -1,4 +1,4 @@
-/*@media screen and (min-width: 600px); {*/
+@media screen and (min-width: 391px) {
     
 body {
     font-family: 'Catamaran';
@@ -455,8 +455,8 @@ footer {
 
 }
 }
-/*@media screen and (max-width: 400px) 
+@media screen and (max-width: 390px) 
     {
         
 
-    }*/
+    }
