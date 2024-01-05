@@ -466,6 +466,7 @@
         width: 1440px;
         height: 571px;
         top: 3892px;
+
     }
 
     .titlereseñas {
@@ -473,7 +474,15 @@
         margin-top: 64px;
 
     }
-}
+
+    .reseñasclientes{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+   
 
 /*COMIENZA EL RESPONSIVE*/
 @media screen and (max-width: 391px) {
