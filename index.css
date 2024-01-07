@@ -538,6 +538,10 @@ article p {
 /*COMIENZA EL RESPONSIVE*/
 @media screen and (max-width: 391px) {
 
+    body {
+        font-family: 'Catamaran';
+    }
+    
     h1 {
         font-size: 82px;
         font-weight: 600;
