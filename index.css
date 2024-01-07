@@ -113,6 +113,33 @@ p {
     padding: 3px;
 }
 
+.titulo-imagen {
+    position: absolute;
+    top: 330px;
+    left: 183px;
+    font-size: 80px;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 1.10;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.eslogan {
+    position: absolute;
+    top: 525px;
+    bottom: 25px;
+    left: 183px;
+    color:#FFFFFF;
+    font-size: 32px;
+    line-height: 1.20;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.resaltado {
+    background-color:#D73A31;
+    display: inline-block;
+}
+
 .sponsors {
     background-color: #FFFFFF;
     display: flex;
