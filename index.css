@@ -66,8 +66,6 @@
         align-items: center;
     }
 
-
-
     .header div:first-child {
         grid-row: 1 / 4;
         padding-left: 150px;
@@ -167,12 +165,17 @@
         display: inline-block;
     }
 
-    .sponsors {
+    .sponsorsdesktop {
         background-color: #FFFFFF;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
         margin: 60px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .sponsorsmobile {
+        display: none;
     }
 
     #hf {
@@ -277,6 +280,11 @@
     #rrsstextfooter {
         margin-block-start: 10px;
         margin-block-end: 10px;
+    }
+
+    .newsletterblock {
+        display: flex;
+        flex-direction: row;
     }
 
     .bloque4 h3 {
@@ -529,6 +537,7 @@ article p {
 
 /*COMIENZA EL RESPONSIVE*/
 @media screen and (max-width: 391px) {
+
     h1 {
         font-size: 82px;
         font-weight: 600;
@@ -568,52 +577,6 @@ article p {
     .izquierda {
         display: none;
     }
-
-    /*
-    .header {
-        background-color: #032B2F;
-        width: 390px;
-        height: 101px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .headerlogo {
-        padding-top: 17px;
-        padding-left: 21px;
-        width: 156px;
-        height: 58.26px;
-        padding-bottom: 22px;
-    }
-
-    .navbar {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-
-    }
-
-    .derecha {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding-left: 10px;
-    }
-
-
-    #hiddenicondesktop {
-        padding-left: 30px;
-        width: 30px;
-        height: 15px;
-    }
-
-    .buttonheader {
-        background-color: #032B2F;
-        border: none;
-        cursor: pointer;
-    }
-*/
 
     #mainlogo {
         background-color: #032B2F;
@@ -661,34 +624,49 @@ article p {
         cursor: pointer;
     }
 
-    .sponsors {
-        background-color: #EFF2EE;
+    .sponsorsmobile {
+        background-color: #FFFFFF;
         width: 390px;
         height: 132px;
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
         align-items: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .sponsorsmobile img {
         justify-content: space-around;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .sponsorsdesktop {
+        display: none;
     }
 
     #hf {
-        height: 36px;
+        height: 46px;
     }
 
     #biosphere {
-        height: 49px;
+        height: 59px;
     }
 
     #barcelona {
-        height: 39px;
+        height: 49px;
     }
 
     #certificadoverde {
-        height: 54px;
+        padding-top: 15px;
+        height: 64px;
     }
 
     #economiahumana {
-        height: 40px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        height: 50px;
     }
 
     #newslettertextfooter {
@@ -748,6 +726,10 @@ article p {
 
     .rrssicons a {
         text-decoration: none;
+    }
+
+    .bloque4hidden {
+        display: none;
     }
 
     .rrssicons img {
