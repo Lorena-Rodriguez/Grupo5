@@ -137,26 +137,34 @@
     .derecha img {
         padding: 3px;
     }
-    
+
     .contenedor {
         display: flex;
+        justify-content: center;
+        align-items: center;
         background-image: url("images/encabezado.jpg");
         height: 724px;
     }
 
+    .imagen-seccion1 {
+        position: relative;
+        overflow: hidden;
+    }
+
     .titulo-imagen {
-        padding-top: 190px;
-        padding-left: 170px;
+        top: 330px;
+        left: 183px;
         font-size: 80px;
         color: #FFFFFF;
         font-weight: bold;
-        line-height: 1;
+        line-height: 1.10;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     }
 
     .eslogan {
-        margin-top: 370px;
-        margin-left: -415px;
+        top: 525px;
+        bottom: 25px;
+        left: 183px;
         color: #FFFFFF;
         font-size: 32px;
         line-height: 1.20;
@@ -469,9 +477,11 @@
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 5px;
 }
-.titlecatalog{
+
+.titlecatalog {
     text-align: center;
 }
+
 .contenedor-foto {
     display: flex;
     flex-direction: column;
@@ -509,15 +519,23 @@
     top: 3892px;
 
 }
-.titlereseñas{
+
+.titlereseñas {
     text-align: center;
     margin-top: 0px;
     padding-top: 25px;
 }
+
 .reseñagrupo {
     text-align: center;
     margin-top: 30px;
+    margin-top: 13px;
 }
+
+.reseñagrupo p {
+    text-align: center;
+}
+
 
 .reseñasclientes {
     display: flex;
@@ -549,7 +567,7 @@
     body {
         font-family: 'Catamaran';
     }
-    
+
     h1 {
         font-size: 82px;
         font-weight: 600;
@@ -629,6 +647,7 @@
         width: 30px;
         height: 21px;
     }
+
 
     .buttonheader {
         background-color: #56B1B7;
