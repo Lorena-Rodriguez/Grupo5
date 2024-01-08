@@ -137,6 +137,18 @@
     .derecha img {
         padding: 3px;
     }
+    
+    .contenedor-seccion1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("");
+    }
+
+    .imagen-seccion1 {
+        position: relative;
+        overflow: hidden;
+    }
 
     .titulo-imagen {
         position: absolute;
