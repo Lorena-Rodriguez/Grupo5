@@ -138,6 +138,8 @@
         padding: 3px;
     }
     
+/*COMIENZA SECCION 1*/
+
     .contenedor {
         display: flex;
         background-image: url("images/encabezado.jpg");
@@ -167,6 +169,25 @@
         background-color: #D73A31;
         display: inline-block;
     }
+
+/*COMIENZA SECCION 2*/
+
+.contenedor-s2 {
+    text-align: center;
+    background-color:#56B1B7;
+    padding: 60px;
+}
+
+.contenedor-s2 h2, h3, h4{
+    color: white;
+    margin: 10px;
+    line-height: 1.10;
+}
+
+.contenedor-s2 h2{
+    font-weight: lighter;
+    line-height: 52px;
+}
 
     .sponsorsdesktop {
         background-color: #FFFFFF;
