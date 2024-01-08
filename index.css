@@ -511,15 +511,14 @@
 }
 .titlereseñas{
     text-align: center;
-    margin-top: 64px;
+    margin-top: 0px;
+    padding-top: 25px;
 }
 .reseñagrupo {
     text-align: center;
-    margin-top: 64px;
+    margin-top: 30px;
 }
-.reseñagrupo p {
-    text-align: center;
-}
+
 .reseñasclientes {
     display: flex;
     align-items: flex-start;
@@ -538,9 +537,9 @@
     margin-right: auto;
 }
 
-.subreseñas,
-article p {
+.subreseñas, article p {
     text-align: justify;
+    text-align: center;
 }
 
 
@@ -759,13 +758,34 @@ article p {
 
     .fila {
         grid-template-columns: repeat(2, 1fr);
-       
     }
- 
+}
+
 /*COMIENZA EL FORMULARIO*/
-.mb-3{
-    background-color: #EFF2EE;
-    padding-left: 158px;
-    padding-right: 180px;
-}
-}
+    .formbasic{
+        width: 1440px;
+        height: 706px;
+        background-color:#4b6e3f;
+        padding-left: 158px;
+        padding-right: 180px;
+        padding-bottom: 25px;
+    }
+    .formtitle{
+        padding-top: 109px;
+        
+    }
+    .form-control{
+        padding-bottom: 32px;
+    }
+    .submit-button { 
+        background-color: #D73A31; 
+        border: none; 
+        color: white; 
+        padding: 15px 32px; 
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 680px;
+        cursor: pointer;
+    }
