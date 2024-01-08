@@ -140,31 +140,23 @@
     
     .contenedor {
         display: flex;
-        justify-content: center;
-        align-items: center;
         background-image: url("images/encabezado.jpg");
         height: 724px;
     }
 
-    .imagen-seccion1 {
-        position: relative;
-        overflow: hidden;
-    }
-
     .titulo-imagen {
-        top: 330px;
-        left: 183px;
+        padding-top: 190px;
+        padding-left: 170px;
         font-size: 80px;
         color: #FFFFFF;
         font-weight: bold;
-        line-height: 1.10;
+        line-height: 1;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     }
 
     .eslogan {
-        top: 525px;
-        bottom: 25px;
-        left: 183px;
+        margin-top: 370px;
+        margin-left: -415px;
         color: #FFFFFF;
         font-size: 32px;
         line-height: 1.20;
