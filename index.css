@@ -137,9 +137,21 @@
     .derecha img {
         padding: 3px;
     }
+    
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("images/encabezado.jpg");
+        height: 724px;
+    }
+
+    .imagen-seccion1 {
+        position: relative;
+        overflow: hidden;
+    }
 
     .titulo-imagen {
-        position: absolute;
         top: 330px;
         left: 183px;
         font-size: 80px;
@@ -150,7 +162,6 @@
     }
 
     .eslogan {
-        position: absolute;
         top: 525px;
         bottom: 25px;
         left: 183px;
