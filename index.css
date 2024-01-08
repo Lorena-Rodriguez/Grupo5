@@ -517,13 +517,17 @@
     top: 3892px;
 
 }
-
-.titlereseñas {
+.titlereseñas{
     text-align: center;
     margin-top: 64px;
-
 }
-
+.reseñagrupo {
+    text-align: center;
+    margin-top: 64px;
+}
+.reseñagrupo p {
+    text-align: center;
+}
 .reseñasclientes {
     display: flex;
     align-items: flex-start;
