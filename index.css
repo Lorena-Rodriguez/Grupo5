@@ -466,14 +466,16 @@
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 5px;
 }
-
+.titlecatalog{
+    text-align: center;
+}
 .contenedor-foto {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.contenedor-foto>div {
+.contenedor-foto {
     display: flex;
     justify-content: center;
 }
@@ -748,4 +750,14 @@ article p {
         padding-top: 10px;
     }
 
+    .fila {
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+ 
+/*COMIENZA EL FORMULARIO*/
+.mb-3{
+    background-color: #EFF2EE;
+    padding-left: 158px;
+    padding-right: 180px;
 }
