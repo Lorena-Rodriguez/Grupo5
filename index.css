@@ -536,7 +536,10 @@
     text-align: center;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> df3169ef505ce164990e76110656a8c8396a0295
 .reseñasclientes {
     display: flex;
     align-items: flex-start;
@@ -777,6 +780,7 @@
 
     .fila {
         grid-template-columns: repeat(2, 1fr);
+<<<<<<< HEAD
     }
 }
 
@@ -808,3 +812,15 @@
         margin: 4px 680px;
         cursor: pointer;
     }
+=======
+
+    }
+
+    /*COMIENZA EL FORMULARIO*/
+    .mb-3 {
+        background-color: #EFF2EE;
+        padding-left: 158px;
+        padding-right: 180px;
+    }
+}
+>>>>>>> df3169ef505ce164990e76110656a8c8396a0295
