@@ -783,7 +783,7 @@
     .formbasic{
         width: 1440px;
         height: 706px;
-        background-color:#4b6e3f;
+        background-color:#EFF2EE;
         padding-left: 158px;
         padding-right: 180px;
         padding-bottom: 25px;
@@ -806,4 +806,12 @@
         font-size: 16px;
         margin: 4px 680px;
         cursor: pointer;
+    }
+
+    #exampleFormControlTextarea1 {
+        max-height: 300px;
+        overflow-y: auto;
+    }
+    .buttondiv{
+        padding-left: 300px;
     }
