@@ -693,6 +693,75 @@
         height: 21px;
     }
 
+    .contenedor {
+        display: grid;
+        justify-content: left;
+        align-items: center;
+        background-image: url("images/encabezado.jpg");
+        height: 624px;
+        width: 390px;
+    }
+
+    .titulo-imagen {
+        margin-top: 10px;
+        margin-left: 40px;
+        margin-right: 300px;
+        font-size: 70px;
+        color: #FFFFFF;
+        font-weight: bold;
+        line-height: 1.05;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .eslogan {
+        margin-top: -200px;
+        margin-left: 40px;
+        color: #FFFFFF;
+        font-size: 25px;
+        line-height: 1.20;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .resaltado {
+        background-color: #D73A31;
+        display: inline-block;
+    }
+
+    .contenedor-s2 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        background-color:#56B1B7;
+        height: 800px;
+        width: 270px;
+        padding: 60px;
+    }
+
+    .contenedor-s2 h2, h3, h4{
+        color: white;
+        line-height: 1;
+    }
+    
+    .contenedor-s2 img{
+        height: 60px;
+    }
+
+    .contenedor-s2 h3{
+        font-size: 20px;
+    }
+
+    .contenedor-s2 h4{
+        font-size: 10px;
+    }
+
+    .contenedor-s2 h2{
+        font-size: 20px;
+        font-weight: lighter;
+        line-height: 30px;
+        margin-left: -25px;
+        margin-right: -25px;
+    }
 
     .buttonheader {
         background-color: #56B1B7;
