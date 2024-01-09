@@ -181,6 +181,7 @@
     align-items: center;
     background-color:#56B1B7;
     padding: 60px;
+    display: grid;
 }
 
 .contenedor h2{
@@ -198,20 +199,23 @@
     line-height: 52px;
 }
 
+.simbolos-s2 {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
 .telefono-s2 {
-    flex: 1;
     justify-content: center;
     margin: 10px;
 }
 
 .arbol-s2 {
-    flex: 1;
     justify-content: center;
     margin: 10px;
 }
 
 .brazo-s2 {
-    flex: 1;
     justify-content: center;
     margin: 10px;
 }
