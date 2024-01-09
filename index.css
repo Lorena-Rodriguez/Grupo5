@@ -384,6 +384,10 @@
 
 /*SECCIÓN SLIDER*/
 
+/*.slider {
+    height: 460px;
+}*/
+
 .slider1 {
     background-color: #EFF2EE;
     height: 460px;
@@ -436,6 +440,7 @@
     height: 300px;
     margin-left: 115px;
 }
+
 
 
 
@@ -619,7 +624,7 @@
     }
 
     h2 {
-        font-size: 47px;
+        font-size: 34px;
         font-weight: 700;
         line-height: 52px;
     }
