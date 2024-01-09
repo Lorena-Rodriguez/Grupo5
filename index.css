@@ -806,9 +806,20 @@
         margin-bottom: 7px;
         margin-left: 2px;
     }
-    #reseñaresponsive{
-
+    .reseñagrupo {
+        display: none;
     }
+    .reseñas {
+        background-color: #EFF2EE;
+        width: auto;
+        height: 571px;
+        top: 3892px;
+    }
+    #reseñaresponsive{
+        
+           align-items: center;
+    }
+    
 }
 
 /*COMIENZA EL FORMULARIO*/
