@@ -384,6 +384,10 @@
 
 /*SECCIÓN SLIDER*/
 
+/*.slider {
+    height: 460px;
+}*/
+
 .slider1 {
     background-color: #EFF2EE;
     height: 460px;
@@ -436,6 +440,7 @@
     height: 300px;
     margin-left: 115px;
 }
+
 
 
 
@@ -619,7 +624,7 @@
     }
 
     h2 {
-        font-size: 47px;
+        font-size: 34px;
         font-weight: 700;
         line-height: 52px;
     }
@@ -898,21 +903,36 @@
         margin-bottom: 7px;
         margin-left: 2px;
     }
-    .reseñagrupo {
-        display: none;
-    }
+    
+    
     .reseñas {
         background-color: #EFF2EE;
         width: auto;
-        height: 571px;
+        height: 620px;
         top: 3892px;
     }
     #reseñaresponsive{
         
            align-items: center;
     }
-    
+    .reseñasclientes .reseñagrupo:not(:first-child) {
+        display: none;
+    }
+    .reseñasclientes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    p {
+        color: black;
+    }
+    .reseñagrupo{
+        margin-top: -14px;
+    }
 }
+
 
 /*COMIENZA EL FORMULARIO*/
     .formbasic{
