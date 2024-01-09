@@ -499,20 +499,17 @@
     grid-gap: 5px;
 }
 
-.titlecatalog {
-    text-align: center;
-}
-
 .contenedor-foto {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.contenedor-foto {
+.contenedor-foto>div {
     display: flex;
     justify-content: center;
 }
+
 
 .contenedor-foto div span {
     margin-top: 10px;
@@ -525,7 +522,9 @@
     text-align: center;
     margin-bottom: 15px;
 
+
 }
+
 
 .cataloguesub {
     text-align: center;
@@ -577,6 +576,9 @@
 
 .subreseñas, article p {
     text-align: justify;
+    text-align: center;
+}
+.titlecatalog{
     text-align: center;
 }
 
@@ -798,6 +800,12 @@
     .fila {
         grid-template-columns: repeat(2, 1fr);
     }
+    .item{
+        margin-top: 7%;
+        margin-right: 2px;
+        margin-bottom: 7px;
+        margin-left: 2px;
+    }
 }
 
 /*COMIENZA EL FORMULARIO*/
@@ -810,7 +818,8 @@
         padding-bottom: 25px;
     }
     .formtitle{
-        padding-top: 109px;
+        text-align: start;
+        color: #032B2F;
         
     }
     .form-control{
