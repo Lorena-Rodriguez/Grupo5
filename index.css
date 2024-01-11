@@ -609,6 +609,46 @@
     text-align: center;
 }
 
+    /*COMIENZA EL FORMULARIO*/
+    
+    .formboot {
+        height: 600px;
+        background-color: #EFF2EE;
+        margin-top: -20px;
+
+    }
+
+    .formbasic {
+        width: 1150px;
+        margin-left: 145px;
+        padding-top: 110px;
+    }
+
+    .formtitle {
+        color: #032B2F;
+        text-align: center;
+        padding-bottom: 15px;
+
+    }
+
+    .submit-button {
+        background-color: #D73A31;
+        height: 38px;
+        width: 150px;
+        border: none;
+        color: white;
+        text-align: center;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    #exampleFormControlTextarea1 {
+        max-height: 300px;
+        overflow-y: auto;
+    }
+
+
+
 
 /*COMIENZA EL RESPONSIVE*/
 @media screen and (max-width: 391px) {
@@ -1112,47 +1152,4 @@
     }
 
 
-    /*COMIENZA EL FORMULARIO*/
-    .formbasic {
-        width: 1440px;
-        height: 706px;
-        background-color: #EFF2EE;
-        padding-left: 158px;
-        padding-right: 180px;
-        padding-bottom: 25px;
-    }
-
-    .formtitle {
-        text-align: center;
-        color: #032B2F;
-        padding-top: 105px;
-        padding-bottom: 30px;
-
-    }
-
-    .form-control {
-        padding-bottom: 32px;
-    }
-
-    .submit-button {
-        background-color: #D73A31;
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 680px;
-        cursor: pointer;
-    }
-
-    #exampleFormControlTextarea1 {
-        max-height: 300px;
-        overflow-y: auto;
-    }
-
-    .buttondiv {
-        padding-left: 300px;
-    }
 }
