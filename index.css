@@ -619,8 +619,10 @@
     }
 
     .formbasic {
-        width: 1150px;
-        margin-left: 145px;
+        max-width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
         padding-top: 110px;
     }
 
