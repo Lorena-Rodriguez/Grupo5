@@ -1,23 +1,18 @@
 @media screen and (min-width: 391px) {
 
-    body {
-        font-family: 'Catamaran';
-        width: 1440px;
-    }
-
-    html,
-    body {
-        height: auto;
-    }
 
     html {
         display: table;
         margin: auto;
+        height: auto;
     }
 
     body {
         display: table-cell;
         vertical-align: middle;
+        font-family: 'Catamaran';
+        width: 1440px;
+        height: auto;
     }
 
     h1 {
@@ -763,7 +758,7 @@
     }
 
     .contenedor-s2 h4 {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .contenedor-s2 h2 {
@@ -944,64 +939,220 @@
         margin-top: -14px;
     }
 
-    /*SOLUCION SLIDER*/
-
-    .soluciont {
-        display: block;
-        width: 390px;
-        height: 2522px;
-    }
+    /*SECCIÓN SLIDER*/
 
     .slider {
-        display: none;
+
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .slider1 {
+        background-color: #EFF2EE;
+        height: 559px;
+        width: 365px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .slider2 {
+        background-color: #D73A31;
+        height: 559px;
+        width: 365px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+
+    .slider3 {
+        background-color: #032B2F;
+        height: 559px;
+        width: 365px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .text_slider {
+        color: #032B2F;
+        width: 300px;
+    }
+
+    .text_slider p {
+        color: #032B2F;
+        width: 300px;
+    }
+
+    .text_slider_white {
+        color: #FFFFFF;
+        width: 300px;
+
+    }
+
+    .txtwhite {
+        color: #FFFFFF
+    }
+
+    .ilustracion_soporte {
+        height: 150px;
+        margin-top: 52px;
+        margin-left: 0px;
+    }
+
+    .ilustracion_envios {
+        height: 185px;
+
+    }
+
+    .ilustracion_colaboracion {
+        height: 139px;
+        margin-top: 52px;
+        margin-left: 0px;
+    }
+
+
+
+
+    /*SECCIÓN CONTACTO*/
+
+    .mockup {
+        height: 100%;
+        width: 390px;
+
     }
 
     .contact {
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tofill {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .newsletter {
+        background-color: #56B1B7;
+        height: 260px;
+        width: 390px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .newsletter h2 {
+        color: #032B2F;
+        margin-left: 47px;
+        margin-right: 47px;
+        margin-block-end: 20px;
+        line-height: 40px;
+    }
+
+    .newsletter p {
         display: none;
     }
-}
+
+    .form {
+        height: 249px;
+        width: 390px;
+        margin-left: 47px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+    }
+
+    .email {
+        background-color: #FFFFFF;
+        height: 38px;
+        width: 292px;
+        color: #979c9d;
+        border: 0;
+        padding-left: 0;
+    }
+
+    .enviar {
+        height: 38px;
+        width: 292px;
+        background: #032B2F;
+        color: #FFFFFF;
+        border: 0;
+    }
+
+    .contactform {
+        width: 292x;
+        height: 200px;
+        margin-left: 47px;
+        margin-right: 47px;
+        margin-top: 45px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    
+    }
+
+    .contactform p {
+        color: #032B2F;
+        text-align: left;
+        width: 292x;
+
+    }
+
+    .accesoformulario {
+        width: 292px;
+        height: 38px;
+        background: #D73A31;
+        color: #FFFFFF;
+        border: 0;
+    }
 
 
-/*COMIENZA EL FORMULARIO*/
-.formbasic {
-    width: 1440px;
-    height: 706px;
-    background-color: #EFF2EE;
-    padding-left: 158px;
-    padding-right: 180px;
-    padding-bottom: 25px;
-}
+    /*COMIENZA EL FORMULARIO*/
+    .formbasic {
+        width: 1440px;
+        height: 706px;
+        background-color: #EFF2EE;
+        padding-left: 158px;
+        padding-right: 180px;
+        padding-bottom: 25px;
+    }
 
-.formtitle {
-    text-align: center;
-    color: #032B2F;
-    padding-top: 105px;
-    padding-bottom: 30px;
+    .formtitle {
+        text-align: center;
+        color: #032B2F;
+        padding-top: 105px;
+        padding-bottom: 30px;
 
-}
+    }
 
-.form-control {
-    padding-bottom: 32px;
-}
+    .form-control {
+        padding-bottom: 32px;
+    }
 
-.submit-button {
-    background-color: #D73A31;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 680px;
-    cursor: pointer;
-}
+    .submit-button {
+        background-color: #D73A31;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 680px;
+        cursor: pointer;
+    }
 
-#exampleFormControlTextarea1 {
-    max-height: 300px;
-    overflow-y: auto;
-}
+    #exampleFormControlTextarea1 {
+        max-height: 300px;
+        overflow-y: auto;
+    }
 
-.buttondiv {
-    padding-left: 300px;
+    .buttondiv {
+        padding-left: 300px;
+    }
 }
